@@ -1,0 +1,42 @@
+{
+    "name": "tonystore/laravel-validate-ec",
+    "description": "Libreria para validar la estructura de los diferentes tipos de documentos de identificación emitidos para ecuador",
+    "type": "library",
+    "keywords": ["laravel", "ecuador", "validador", "cedula", "ruc"],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "tavo1987/ec-validador-cedula-ruc": "^1.0",
+        "illuminate/validation": "^9.0 || ^10.0 || ^11.0",
+        "illuminate/support": "^9.0 || ^10.0 || ^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^9.0 || ^10.0 || ^11.0",
+        "nunomaduro/collision": "^7.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tonystore\\LaravelValidateEc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tonystore\\LaravelValidateEc\\Tests\\": "tests/"
+        }
+    },
+    "authors": [{
+        "name": "Anthony Medina Sandoval",
+        "email": "thony918@outlook.com",
+        "homepage": "https://github.com/tony98ms",
+        "role": "Developer"
+    }],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tonystore\\LaravelValidateEc\\LaravelValidateEcProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
