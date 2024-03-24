@@ -2,7 +2,6 @@
 
 namespace Tonystore\LaravelValidateEc\Tests;
 
-use Illuminate\Support\Facades\Lang;
 use Tonystore\LaravelValidateEc\Rules\ValidDocumentEc;
 
 class ValidateDocumentCiTest extends TestCase
@@ -27,7 +26,6 @@ class ValidateDocumentCiTest extends TestCase
         ]);
         $this->assertFalse($validator->passes());
     }
-    /** @test */
     public function test_validate_ci_with_rule()
     {
         $rules = ['ci' => [new ValidDocumentEc('ci')]];
