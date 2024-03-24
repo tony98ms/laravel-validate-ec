@@ -11,6 +11,9 @@ class ValidDocumentEc  implements Rule
     private array $types = [
         'ci' => 'validarCedula',
     ];
+    private $messages = [
+        'ci'        => 'Cédula',
+    ];
     public function __construct(
         private string $parameter,
     ) {
@@ -39,6 +42,6 @@ class ValidDocumentEc  implements Rule
      */
     public function message()
     {
-        return  __('validation::validate.document_ec');
+        return str_replace(':type', $this->messages[$this->parameter], __('validation::validate.document_ec'));
     }
 }
