@@ -28,7 +28,7 @@ class LaravelValidateEcProvider extends \Illuminate\Support\ServiceProvider
     {
         foreach ($this->langs as $lang) {
             $this->publishes([
-                __DIR__ . "/lang/$lang" => lang_path($lang),
+                __DIR__ . "/../lang/$lang" => lang_path($lang),
             ], "validate-lang-$lang");
         }
     }
