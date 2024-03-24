@@ -39,6 +39,6 @@ class ValidDocumentEc  implements Rule
      */
     public function message()
     {
-        return __('validate.document_ec');
+        return  __('validation::validate.document_ec');
     }
 }

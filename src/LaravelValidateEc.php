@@ -25,6 +25,6 @@ class LaravelValidateEc
 
     public function replace($message, $attribute, $rule, $parameters)
     {
-        return str_replace(':type', $this->messages[$parameters[0]], __($message));
+        return str_replace(':type', $this->messages[$parameters[0]], __('validation::validate.document_ec'));
     }
 }
