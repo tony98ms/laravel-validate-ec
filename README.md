@@ -1,5 +1,8 @@
 # laravel-validate-ec
-[![Latest Stable Version](http://poser.pugx.org/tonystore/laravel-validate-ec/v)](https://packagist.org/packages/tonystore/laravel-validate-ec) [![Total Downloads](http://poser.pugx.org/tonystore/laravel-validate-ec/downloads)](https://packagist.org/packages/tonystore/laravel-validate-ec) [![Latest Unstable Version](http://poser.pugx.org/tonystore/laravel-validate-ec/v/unstable)](https://packagist.org/packages/tonystore/laravel-validate-ec) [![License](http://poser.pugx.org/tonystore/laravel-validate-ec/license)](https://packagist.org/packages/tonystore/laravel-validate-ec) [![PHP Version Require](http://poser.pugx.org/tonystore/laravel-validate-ec/require/php)](https://packagist.org/packages/tonystore/laravel-validate-ec)
+[![Latest Stable Version](https://img.shields.io/packagist/v/tonystore/laravel-validate-ec?label=version)](https://packagist.org/packages/tonystore/laravel-validate-ec) 
+[![Packagist Downloads](https://img.shields.io/packagist/dt/tonystore/laravel-validate-ec)](https://packagist.org/packages/tonystore/laravel-validate-ec)
+[![License](https://img.shields.io/packagist/l/tonystore/laravel-validate-ec)](https://packagist.org/packages/tonystore/laravel-validate-ec) 
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/tonystore/laravel-validate-ec/php)](https://packagist.org/packages/tonystore/laravel-validate-ec)
 
 Librería para validar la estructura de los diferentes tipos de documentos de identificación emitidos para ecuador. 
 
